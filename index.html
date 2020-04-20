@@ -5,7 +5,7 @@
 		<meta http-equiv="x-ua-compatible" content="ie=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>
-			<%= htmlWebpackPlugin.options.title %>
+			Dolce Grocery
 		</title>
 		<meta
 			name="description"
@@ -39,7 +39,6 @@
 			);
 		</script>
 		<!-- End Google Tag Manager -->
-		<% } %>
 		<!-- End Google Analytics -->
 
 		<!-- CSS will be injected by webpack here -->
@@ -88,7 +87,6 @@
 	</head>
 
 	<body>
-		<% if (htmlWebpackPlugin.options.gtmKey) { %>
 		<!-- Google Tag Manager (noscript) -->
 		<noscript
 			><iframe
@@ -99,7 +97,6 @@
 			></iframe
 		></noscript>
 		<!-- End Google Tag Manager (noscript) -->
-		<% } %>
 
 		<app>
 			<!-- loading layout replaced by app after startupp -->
