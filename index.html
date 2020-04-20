@@ -14,18 +14,8 @@
 		<!-- base url -->
 		<base href="<%= htmlWebpackPlugin.options.metadata.baseUrl %>" />
 
-		<% if (webpackConfig.htmlElements.headTags) { %>
-		<!-- Configured Head Tags  -->
-		<%= webpackConfig.htmlElements.headTags %> <% } %> <%=
-		htmlWebpackPlugin.files.webpackManifest %> <% if
-		(htmlWebpackPlugin.options.metadata.isDevServer &&
-		htmlWebpackPlugin.options.metadata.HMR !== true) { %>
 		<!-- Webpack Dev Server reload -->
 		<script src="/webpack-dev-server.js"></script>
-		<% } %>
-
-		<!-- Async Google Tag Manager: change gtmKey value inside config.prod.conf to your to be your site's ID-->
-		<% if (htmlWebpackPlugin.options.gtmKey) { %>
 		<!-- Google Tag Manager -->
 		<script>
 			(function (w, d, s, l, i) {
