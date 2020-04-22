@@ -8944,7 +8944,7 @@ var environment = {
     DEFAULT_LANGUAGE: 'en-US',
     SERVICES_ENDPOINT: 'http://35.181.154.72:5500',
     HTTPS_SERVICES_ENDPOINT: 'https://35.181.154.72:5501',
-    GQL_ENDPOINT: 'http://35.181.154.72:5555/graphql',
+    GQL_ENDPOINT: 'http://ec2-52-2-19-125.compute-1.amazonaws.com:5555/graphql',
     GQL_SUBSCRIPTIONS_ENDPOINT: 'ws://35.181.154.72:5050/subscriptions',
     AUTH_LOGO: 'assets/img/logo.png',
     NO_INTERNET_LOGO: 'assets/img/logo.png',
