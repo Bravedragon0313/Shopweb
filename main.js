@@ -7899,7 +7899,7 @@ var NoContentComponent = (function () {
     NoContentComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'no-content',
-            template: "\n\t\t<div>\n\t\t\t<h1>404: page missing</h1>\n\t\t</div>\n\t",
+            template: "\n\t\t<div>\n\t\t\t<h1></h1>\n\t\t</div>\n\t",
         })
     ], NoContentComponent);
     return NoContentComponent;
